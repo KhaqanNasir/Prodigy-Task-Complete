@@ -1,0 +1,351 @@
+*{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.gen-animation{
+    animation: general ease-in-out both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+@keyframes general {
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: whitesmoke;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #A56238;
+}
+
+nav{
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo{
+    display: inline-flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 1000;
+    justify-content: start;
+}
+#nav-p1{
+    color: #A56238;
+}
+.tags li{
+    display:inline-flex;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.tags li a{
+    text-decoration: none;
+    color: black;
+}
+
+.tags li a:hover{
+    color: #A56238;
+    cursor: pointer;
+    border-bottom: 3px solid #A56238;
+}
+.nav-btn{
+        font-size: 20px;
+        font-weight: 500;
+        background-color: #A56238;
+        border: none;
+        border-radius: 40px;
+        padding: 14px;
+}
+.nav-btn:hover{
+    color: whitesmoke;
+    background-color: #161514;
+}
+#p1{
+    color: #A56238;
+    font-size: 22px;
+    font-weight: 500;
+}
+#p2{
+    font-size: 90px;
+    font-size: 1000;
+    color: whitesmoke;
+    animation: p2 2s ease-in-out both;
+}
+@keyframes p2 {
+    from{
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-100px)
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0px);
+    }
+    
+}
+#p3{
+    font-size: 20px;
+    font-weight: 500;
+    color: whitesmoke;
+    animation: p3 2s normal ease-in-out both;
+}
+@keyframes p3 {
+    from{
+        opacity: 0;
+        visibility: hidden;
+        margin-top: -70px;
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+    
+#home-btn{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #A56238;
+    border: none;
+    border-radius: 40px;
+    padding: 14px;
+
+}
+#home-btn:hover{
+    color: whitesmoke;
+    border: 4px solid #A56238;
+    background-color: #161514;
+}
+.home-div1{
+    padding-top: 150px;
+}
+
+.home-div2{
+    padding-top: 90px;
+}
+.home{
+    background-color: #272626;
+    height: 100%;
+}
+.home-div2 img{
+    animation: home-img 2s normal ease-in-out both;
+}
+@keyframes home-img {
+    from{
+        opacity: 0;
+        visibility: hidden;
+        margin-bottom: 100px;
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+    }
+    
+}
+.icons{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A56238;
+    border: 4px solid whitesmoke;
+    border-radius: 8px;
+    padding: 6px;
+}
+.icons a:hover{
+    transform:translateY(-5px);
+}
+.about{
+    background-color: #161514;
+    height: 100%;
+}
+#p4{
+    color: #A56238;
+    font-size: 22px;
+    font-weight: 400;
+}
+#p5{
+    font-size: 60px;
+    font-size: 1000;
+    color: whitesmoke;
+}
+.about-div2{
+    padding-top: 150px;
+    font-size: 17px;
+    color: whitesmoke;
+    
+}
+.about-div1{
+    padding-top: 150px;
+
+}
+.about-div1 img{
+    height: 400px;
+
+}
+#p6{
+    font-size: 40px;
+    font-weight: 1000;
+}
+.about-btn{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #A56238;
+    border: none;
+    border-radius: 40px;
+    padding: 14px; 
+    text-decoration: none;
+    color: #161514;
+}
+.about-btn:hover{
+    color: whitesmoke;
+    border: 4px solid #A56238;
+    background-color: #272626;
+}
+.services{
+    background-color: #272626;
+    height: 100%;
+}
+.skills{
+    background-color: #161514;
+    height: 100%;
+}
+.contact{
+    background-color: #272626;
+    height: 100vh;
+}
+#p7{
+    color: #A56238;
+    font-size: 22px;
+    font-weight: 400; 
+}
+#p8{
+    font-size: 40px;
+    font-size: 1000;
+    color: whitesmoke;
+}
+.skill-div1{
+    text-align: center;
+    padding-top: 50px;
+}
+#con-p1{
+    color: #A56238;
+    font-size: 22px;
+    font-weight: 400; 
+}
+#con-p2{
+    font-size: 40px;
+    font-size: 1000;
+    color: whitesmoke;
+}
+.con-div1{
+    text-align: center;
+    padding-top: 80px;
+}
+.con-div2 input{
+  width: 60%;
+  background-color: #161514;
+  height: 70px;
+  padding: 25px;
+  margin-bottom: 20px;
+  border: 3px solid #A56238;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-size: 20px;
+}
+.con-div2 input:hover{
+    transform: translateY(-10px);
+}
+.con-btn{
+        font-size: 20px;
+        font-weight: 500;
+        background-color: #A56238;
+        border: none;
+        border-radius: 40px;
+        padding: 14px;   
+}
+.con-btn:hover{
+    color: whitesmoke;
+    background-color: #161514;
+    border: 4px solid #A56238;
+}
+footer{
+    padding-top: 10px;
+    background-color: #161514;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+.skill-div2 p{
+    color: whitesmoke;
+    font-weight: 14px;
+    text-align: justify;
+
+}
+.skill-div2 h3{
+    color: whitesmoke;
+    font-weight: 700;
+}
+.skill-div2{
+    text-align: center;
+    padding-top: 60px;
+}
+.ser-div1{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+.ser-div2 p{
+    color: whitesmoke;
+    font-size: 16px;
+}
+.ser-div2 h4{
+    color: whitesmoke;
+    size: 22px;
+}
+.ser-div2{
+    height: 350px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 40px;
+    background-color: #161514;
+    border: 2px solid #A56238;
+}
+.ser-div2 img{
+    border: 2px solid #A56238;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+@media screen and (max-width:800px){
+    *{
+        text-align: center;
+    }
+    .icons{
+        width: 300px;
+    }
+    .tags{
+        visibility: hidden;
+    }
+    .con-div2 input{
+        width: 100%;
+    }
+    .icons{
+        width: 100%;
+        align-self: center;
+    }
+}
